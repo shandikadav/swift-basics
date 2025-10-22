@@ -11,7 +11,7 @@ print("Masukkan jumlah barang belanja kamu: ")
 let jumlahBarang = Int(readLine() ?? "1") ?? 1
 
 print("Apakah kamu punya kartu member?(true/false): ")
-let punyaMemberCard = Bool(readLine() ?? "false") == true
+let punyaMemberCard = Bool1 q(readLine() ?? "false") == true
 
 
 let syaratBelanjaTerpenuhi: Bool = totalBelanja > MIN_BELANJA_DISKON
